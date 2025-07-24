@@ -4,5 +4,9 @@ export interface TaskList{
     done:boolean
 }
 
-export type TaskFilter = "all" | "todo" | "done" ;
+export enum TaskFilter {
+  All = 'all',
+  Active = 'active',
+  Completed = 'completed',
+}
 
