@@ -3,6 +3,7 @@ import { ref, computed } from "vue";
 import Task from './components/Task.vue';
 import Tasklist from "./components/Tasklist.vue";
 import FilterButton from "./components/FilterButton.vue"
+import { TaskFilter } from './type'
 
 import type { TaskList } from './type';
 
